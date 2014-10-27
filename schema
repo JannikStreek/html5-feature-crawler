@@ -1,0 +1,1 @@
+CREATE TABLE crawls(id INTEGER PRIMARY KEY AUTO_INCREMENT, order_alexa int(8), host varchar(80),cachecontrol varchar(160), html5doctype boolean, localstorage boolean, sessionstorage boolean, fileapi boolean, indexeddb boolean, websql boolean, cachemanifest boolean, time TIMESTAMP);
